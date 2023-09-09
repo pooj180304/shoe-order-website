@@ -1,0 +1,208 @@
+.App {
+  text-align: left;
+}
+.errmsg{
+  color: red;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.body{
+    height:100vh;
+    background-image: url('shoe.jpg'); 
+    background-size: cover;
+    background-repeat: repeat;
+    
+}
+.buton {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px; 
+}
+
+.buton:hover {
+  background-color: #0056b3;
+}
+.txt{
+  color: white;
+}
+.bod{
+    height:100vh;
+    background-image: url("Loginimg.jpg"); 
+    background-size: cover;
+    background-repeat: repeat;
+}
+form{
+  text-align: left;
+    padding: 20px;
+}
+.form-group {
+  margin-bottom: 20px; 
+}
+.img-size {
+  max-width: 200px; /* Change this value to your desired width */
+  max-height: 200px; /* Change this value to your desired height */
+  width: auto;
+  height: auto;
+}
+.quantity-wrapper {
+  display: flex;
+  align-items: center; /* Vertical alignment */
+}
+
+.quantity-wrapper button {
+  margin: 0;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.bod {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-image:url("bg.jpg") ;
+  background-repeat: repeat;
+  background-size: cover;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+h1 {
+  font-size: 36px;
+}
+.slogan {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.cont {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.shoe-card {
+  color:white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+.shoe-card img {
+  max-width: 100%;
+}
+.top-buttons {
+  text-align: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.top-buttons button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.cart-button {
+  font-size: 20px;
+  background-color: #ebe9f0; /* Red color for cart */
+}
+.logout-button {
+  font-size: 20px;
+  background-color: #faf8f8; /* Dark gray color for logout */
+}
+button:hover {
+background-color: #0056b3;
+}
+.img-resize{
+  max-width: 200px; /* Change this value to your desired width */
+max-height: 200px; /* Change this value to your desired height */
+width: auto;
+height: auto;
+}
+.logou-button {
+  background-color: #555;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.con {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.cart-item {
+  color:white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex; /* Use flexbox to control layout */
+  align-items: center; /* Center vertically */
+}
+.quan{
+  color: white;
+}
+.cart-content {
+  flex-grow: 1; /* Allow the content to take up remaining space */
+  padding-right: 20px; /* Add some spacing between content and image */
+}
+
+.cart-item img {
+  max-width: 100px;
+  max-height: 100px;
+}
+button:hover {
+  background-color: #0056b3;
+  }
+.logout-button {
+      text-align: right;
+      margin-right: 20px;
+      margin-top: 10px;
+  }
+  html, body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; /* Set the height to 100% of the viewport height */
+  }
