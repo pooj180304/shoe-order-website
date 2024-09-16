@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter,Routes,Route } from 'react-router-dom';
+import {Routes,Route } from 'react-router-dom';
 import Home from './home';
 import Login from './login';
 import Register from './register';
@@ -10,7 +10,6 @@ function App() {
   return (
     <div className='App'>
       <ToastContainer></ToastContainer>
-      <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home/>}> </Route>
         <Route path='/login' element={<Login/>}></Route>
@@ -18,7 +17,6 @@ function App() {
         <Route path='/display' element={<Display/>}></Route>
         <Route path='/cart' element={<Cart/>}></Route>
       </Routes>
-      </BrowserRouter>
     </div>
     
   );
