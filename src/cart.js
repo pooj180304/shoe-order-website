@@ -40,7 +40,7 @@ const Cart = () => {
             <br/>
               <button onClick={() => removeItem(item._id)} className="btn btn-danger">Remove</button>
           </div>
-          <img src={item.image} alt={item.Shoename} className="img-size" />
+          <img src={`http://localhost:3001/public/images/${item.image}`} alt={item.Shoename} className="img-size" />
           </div>
     })}
       </div>
